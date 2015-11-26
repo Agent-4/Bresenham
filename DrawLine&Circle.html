@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta http-equiv="Content-Type"content="text/html;charset=utf-8"/>
+<title>使用Bresenham算法画直线和圆</title>
+<style type="text/CSS">
+	div{
+		overflow:hidden;
+	}
+    #x1,#y1,#x2,#y2,#x,#y,#r{
+        width: 60px;
+    }
+</style>
+<script type="text/javascript" src="Line&Circle.js"></script>
+</head>
+<body>
+	<div>
+		起点坐标：X1<input type="text" id="x1"/> Y1<input type="text" id="y1"/><br/><br/>
+	    终点坐标：X2<input type="text" id="x2"/> Y2<input type="text" id="y2"/><br/><br/>
+		<button onclick="DrawLine(event)" type="button">画直线</button><br/><br/>
+		圆心坐标：X <input type="text" id="x"/> Y <input type="text" id="y"/><br/><br/>
+		圆的半径：R <input type="text" id="r"/><br/><br/>
+		<button onclick="DrawCircle(event)" type="button">画圆</button>
+	</div>
+</body>
+</html>
